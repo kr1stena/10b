@@ -1,0 +1,27 @@
+header{background-color: lightcoral;
+   text-align: center;
+   padding: 7px; 
+}
+
+#main-container {
+     background-color: lightblue ;
+     display: flex;
+     grid-template-columns:1fr 1fr 1fr 1fr ;
+     grid-template-rows: 100px 100px 100px 100px ;
+     gap: '5px';
+
+}
+#side-content{
+    width: 30%;
+
+}
+#photo-container{
+    width: 70%;
+    grid-template-columns: repeat(auto-fit, munmax(150px,1fr));
+
+}
+
+
+
+
+
