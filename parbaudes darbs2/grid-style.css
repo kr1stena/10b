@@ -1,0 +1,39 @@
+header{
+    background-color: rgb(0, 255, 200);
+    text-align: center;
+    padding: 5px;
+}
+
+#main-container{
+    display: flex;
+    background-color: rgb(220, 243, 245);
+    grid-template-rows:100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px ;
+    gap: 5px;
+
+}
+#side-content{
+    width: 30%;
+
+
+
+}
+
+
+
+#grid-container{
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: auto auto;
+     width: 40%;
+}
+
+#side-content{
+    width: 30%;
+
+}
+ 
+#side-content{
+    width:30%;
+}
